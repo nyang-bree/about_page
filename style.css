@@ -1,0 +1,131 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.image_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar{
+    position: absolute;
+    top: 3.5%;
+    left: 5%;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    transition: 0.4s case-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+.section1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.section1{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.section1 h1{
+    font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #fff;
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+
+.section1 .bt{
+    width: 180px;
+    height: 25px;
+    border: none;
+    border-radius:10px ;
+    color: #ff7200;
+   
+}
+
+.section1 div{
+    display: flex;
+    justify-content: space-around;
+}
+.section1 div .bl{
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+.section1 .bl:hover{
+    background-color: #fff;
+}
+.section1 .bt:hover{
+    background-color: black;
+}
+.frames{
+    background-color: #fff;
+}
+
+.frames{
+    display: flex;
+    width: auto;
+    justify-content: center;
+
+}
+.frames img{
+    width: 250px;
+}
+
+.frames{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+section{
+    background-color: gray;
+}
+
+.section2{
+    background-color: white;
+}
+
+
